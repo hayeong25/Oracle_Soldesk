@@ -1,0 +1,5 @@
+-- MEMBER 테이블 생성
+    CREATE TABLE member(id NUMBER(8) PRIMARY KEY, name VARCHAR2(20) NOT NULL, addr VARCHAR2(50) NOT NULL, email VARCHAR(30) NOT NULL, age NUMBER(3));
+
+-- SEQUENCE 생성
+    CREATE SEQUENCE member_seq;
